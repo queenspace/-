@@ -1,0 +1,546 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-image: url(./Rectangle\ \(2\).jpg);
+    min-height: 100vh;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    min-height: 100px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    min-width: 400px;
+    justify-content: space-between;
+}
+nav a{
+    color: aqua;
+    transition: all 2s;
+}
+nav a:hover{
+    color: rgb(255, 0, 204);
+}
+.info h1{
+    font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 95px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+/* White */
+
+color: #FFFFFF;
+max-width: 900px;
+margin :0 auto;
+padding-top: 112px;
+padding-bottom: 35px;
+}
+.info p{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+text-transform: uppercase;
+
+/* White */
+
+color: #FFFFFF;
+}
+.grid{
+    display:grid;
+    grid-gap: 0px 30px;
+    grid-template-columns: repeat(4,1fr);
+    background-color: aliceblue;
+    padding: 57px 130px;
+    
+
+}
+.element h2{
+    font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.element span{
+    display: block;
+    font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 107px;
+text-align: center;
+text-transform: uppercase;
+
+/* Accent */
+
+color: #F7654A;
+
+}
+.element p{
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+
+/* gray */
+
+color: #999999;
+
+}
+.element{
+    border: 2px solid red;
+}
+.ref{
+    display: grid ;
+
+grid-template-columns: repeat(2,1fr);
+grid-gap: 0 30px;
+
+
+}
+.gut{
+   
+    
+}
+.gut h3{
+    text-align: center;
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 36px;
+
+/* Dark */
+
+color: #404149;
+
+}
+.gut p{
+    font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 22px;
+
+color: #999999;
+}
+.contener h2{
+    font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-align: center;
+text-transform: uppercase;
+
+/* Dark */
+
+color: #404149;
+
+}
+.gut img{
+    max-width: 250px;
+    display: block ;
+    margin: 0 auto;
+}
+.gut h3::before{
+    margin: 0 auto;
+    display:block;
+    content: "";
+    width: 55px;
+height: 6px;
+background: #F7654A;
+margin-top: 45px;
+margin-left: 170px;
+}
+.fed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectin{
+    background-color: #F7654A;
+}
+.fed h2{
+    font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 71px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+}
+.fed p{
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+}
+.fed button{
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+.oko{
+    border: 2px solid grey;
+    background-color: rgb(128, 128, 128);
+}
+.upo{
+    display:grid;
+    grid-template-columns: repeat(3,200px);
+    justify-content: center;
+    grid-gap: 27px 30px;
+}
+.oko img{
+    display:block;
+    margin:0 auto;
+
+}
+.oko h3{
+    text-align: center;
+}
+.ted h2{
+    text-align: center;
+    padding-top: 122px;
+    padding-bottom: 66px;
+}
+.ted h2{
+    font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.oko h3{
+    font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 31px;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+}
+.rjk img{
+    width: 160px ;
+    height: 160px;
+}
+.xyi{
+    grid-template-columns: repeat(4,160px);
+    display:grid;
+    justify-content: center;
+}
+.pokemon{
+    display: flex;
+    
+    justify-content: center;
+}
+.jlo{
+    background-color: #2030af;
+}
+.roditel h2{
+    font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-transform: uppercase;
+
+/* White */
+
+color: #FFFFFF;
+
+}
+.u78{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 0px 58px;
+}
+.u78 div div{
+   
+    background-color: rgb(243, 160, 193);
+padding: 20px;
+
+}
+.u78 img{
+    padding-bottom: 40px;
+
+}
+.u78 h3{
+    padding-top: 30px;
+    font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 31px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+}
+.u78 h3 span{
+    color: #F7654A;
+}
+.u78 p{
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* or 150% */
+
+
+/* gray */
+
+color: #140f0f;
+}
+.rh6{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+.retro button {
+   
+   
+             font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+
+
+}
+.gyi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.retro h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+    
+}
+.retro p{
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+.backgrind{
+    background-color: #F7654A;
+}
+.hey button{
+    padding: 20px;
+
+}
+.dota{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 200px);
+    padding-top: 60px;
+}
+.reabilitetion{
+    font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-transform: uppercase;
+
+color: #000000;
+}
+.csgo h3{
+    font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+/* gray */
+
+color: #999999;
+}
+.csgo p{
+    font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+}
+.csgo h5{
+    font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+text-align: center;
+
+/* Accent */
+
+color: #F7654A;
+
+}
+.csgo h4 {
+    text-align:center;}
+    .csgo img{
+        display: block;
+        margin: 0 auto;
+    }
+    .pirat{
+        background-color: #52535d;
+        padding: 20px 0;
+    }
+    .figma{
+        display: flex;
+        justify-content: space-between;
+    }
+    .figma h2{
+        font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* White */
+
+color: #FFFFFF;
+    }
+    .figma p{
+        font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: right;
+
+/* White */
+
+color: #FFFFFF;
+
+    }
+@media screen and (max-width:700px) {
+    .info p{
+        color: red;
+    }
+     .pokemon{
+        
+        height: 40px;
+     }
+     .dota {
+        grid-template-columns: repeat(2, 200px);
+     }
+}
+
+
+@media screen and (max-width:480px) {
+    .info h1{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .info p {
+        color: green;
+    }
+    .grid{
+        padding: 57px 20px;
+    }
+    .ref{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .upo{
+        grid-template-columns: repeat(2,200px);
+    }
+    .rjk img{
+        width: 160px;
+    height: 160px;
+
+    }
+    .xyi{
+        grid-template-columns: repeat(2,160px);
+    }
+    .rh6{
+
+    }
+    .u78{
+        grid-template-columns: repeat(2,1fr);
+    }
+      .u78 div:nth-child(3){
+        grid-column: 1/3;
+    width: 200px;
+    margin: 0 auto;
+      }  
+    
+}
+@media screen and (max-width:380px) {
+    nav ul{
+        min-width: 256px;
+    }
+    .info p {
+        color:rgb(255, 0, 204)
+    }
+    .grid{
+        padding-left: 57px 6px;grid-template-columns: repeat(2,1fr)
+    }
+    .upo{
+        grid-gap:12px 26px;
+        grid-template-columns: repeat(2,150px);
+    }
+    .pokemon{
+        
+        height: 27px;
+     }
+     .u78{
+        grid-gap: 0px 0px;
+     }
+     .gyi {
+        flex-direction: column;
+}
+     
+}
